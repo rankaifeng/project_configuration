@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '@assets/css/reset.less'
-import { Button } from 'antd';
+import App from './App';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Button type='primary'>22</Button>
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
